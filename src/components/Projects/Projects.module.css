@@ -1,0 +1,47 @@
+.projects{
+    background-size: cover;
+    position: relative;
+    z-index: 99;
+}
+.projects p{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.projects::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .9);
+    z-index: -1;
+}
+.projects-item{
+    cursor: pointer;
+    margin: 10px 5px;
+    overflow: hidden;
+}
+.project-item-img{
+    overflow: hidden;
+    width: 636px;
+}
+.projects-item img{
+    width: 100%;
+    object-fit: cover;
+    object-position: -160px 0px;
+}
+.projects-item:hover img {
+    transform: scale(1.1);
+    transition: .4s ease-in;
+}
+
+.projects-item p{
+    color: #FFD32D;
+    font-size: 20px;
+}
+
+.projects .projects-item p {
+    font-family: "Amethysta",-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue'!important;;
+}

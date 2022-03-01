@@ -1,0 +1,10 @@
+.social-icons i{
+    cursor: pointer;
+    display: inline-block;
+}
+
+.social-icons i:hover{
+    color: #ffeb3b;
+    transform: scale(1.1);
+    transition: .4s ease-in;
+}

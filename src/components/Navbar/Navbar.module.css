@@ -1,0 +1,11 @@
+.header-navbar{
+    z-index: 9999;
+}
+
+.active-link {
+    color: var(--bg-primary)!important;
+}
+
+.b-bottom{
+    border-bottom: 1px solid #ffffff78;
+}

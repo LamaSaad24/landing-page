@@ -1,0 +1,35 @@
+.about p{
+    font-size: 18px;
+}
+.list-item::marker{
+    color: #444;
+}
+
+.title{
+    position: relative;
+    padding: 15px;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.title::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-top:4px solid #ffeb3b;
+    border-right:4px solid #ffeb3b;
+}
+
+.title::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border-left:4px solid #ffeb3b;
+    border-bottom:4px solid #ffeb3b;
+}
