@@ -18,7 +18,7 @@ export default function Service(){
              البناء والديكور وتنسيقات الحدائق بالصورة التي نتخيلها  <br/> نقدم أفضل الخدمات في المجال
           </p>
           <div className="row mt-4">
-            <div className="col-md-4" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div className="col-lg-4 col-md-12" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
               <div className={`${classes["service-item"]}`} >
                 <span className={`${classes["service-item-icon"]}`}>
                   <img src="assets/images/services/art-tools.png" alt="arch icon" />
@@ -32,7 +32,7 @@ export default function Service(){
                 <a href="#" className="text-black text-decoration-none">قراءة المزيد</a>
               </div>
             </div>
-            <div className="col-md-4 " data-aos="fade-up">
+            <div className="col-lg-4 col-md-12 " data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
               <div className={`${classes["service-item"]}`} >
                 <span className={`${classes["service-item-icon"]}`}>
                   <img src="assets/images/services/home.png" alt="home icon" />
@@ -46,7 +46,7 @@ export default function Service(){
                 <a href="#" className="text-black text-decoration-none">قراءة المزيد</a>
               </div>
             </div>
-            <div className="col-md-4 "  data-aos="fade-right">
+            <div className="col-lg-4 col-md-12 "  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
               <div className={`${classes["service-item"]}`} >
                 <span className={`${classes["service-item-icon"]}`}>
                   <img src="assets/images/services/arch.png" alt="home icon" />

@@ -6,8 +6,8 @@ import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar'
 import Order from './components/Order/Order'
 import About from './components/About/About'
-
 function App() {
+
   return (
     <>
       <Navbar/>

@@ -12,26 +12,26 @@ export default function Order() {
         <div className="container ">
         <h2 className='my-2'> اطلب تصميمك</h2>
             <div className="row mt-5">
-                <div className="col-md-3">
+                <div className="col-lg-3 col-md-6 "   data-aos="zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine" >
                     <div className={`${classes["order-item"]}`}>
-                        <div data-aos="zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine" className={`  ${classes["order-item-icon"]}`}>
+                        <div  className={`  ${classes["order-item-icon"]}`} className={`  ${classes["order-item-icon"]}`}>
                         <i className="bi bi-pencil-square"></i>
                         </div>
                         <h3 className='my-2'>أرسل طلباتك</h3>
                         <p className='text-muted'>أرسل طلباتك التفصيلة عبر موقعنا</p>
                     </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-lg-3 col-md-6 "   data-aos="zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine" >
                     <div className={`${classes["order-item"]}`}>
-                        <div data-aos="zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine" className={`  ${classes["order-item-icon"]}`} id={`${classes["order-item-2"]}`}>
+                        <div  className={`  ${classes["order-item-icon"]}`} id={`${classes["order-item-2"]}`}>
                         <i className="bi bi-bar-chart"></i>
                         </div>
                         <h3 className='my-2'>تحليل الطلب</h3>
                         <p className='text-muted'>احصل على عرض فني ومالي خلال 48 ساعة</p>
                     </div>
                 </div>
-                <div className="col-md-3">
-                    <div data-aos="zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine" className={`${classes["order-item"]}`}>
+                <div className="col-lg-3 col-md-6 "  data-aos="zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <div  className={`${classes["order-item"]}`}>
                         <div className={`  ${classes["order-item-icon"]}`} id={`${classes["order-item-3"]}`}>
                         <i className="bi bi-currency-exchange"></i>
                         </div>
@@ -39,9 +39,9 @@ export default function Order() {
                         <p className='text-muted'>تحويل القيمة المقدرة وفق العرص المالي</p>
                     </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-lg-3 col-md-6 "  data-aos="zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine" >
                     <div className={`${classes["order-item"]}`}>
-                        <div data-aos="zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine" className={`  ${classes["order-item-icon"]}`} id={`${classes["order-item-4"]}`}>
+                        <div className={`  ${classes["order-item-icon"]}`}  id={`${classes["order-item-4"]}`}>
                         <i className="bi bi-check2-square"></i>
                         </div>
                         <h3 className='my-2'> استلم التصميم </h3>

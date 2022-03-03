@@ -25,7 +25,7 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto  mb-lg-0">
               <li className="nav-item">
-                <a className={`nav-link active  text-white ${classes["active-link"]} `} aria-current="page" href="home">الصفحة الرئيسية</a>
+                <a className={`nav-link active   ${classes["active-link"]} `} aria-current="page" href="home">الصفحة الرئيسية</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link  text-white" href="/projects">مشاريعنا</a>

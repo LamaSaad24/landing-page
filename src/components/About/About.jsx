@@ -7,7 +7,7 @@ export default function About() {
         <div className="container">
             <h2 className='text-center  py-5 mt-4'>من نحن</h2>
             <div className="row pt-3 mb-4">
-                <div className="col-md-9">
+                <div className="col-lg-9 col-md-12">
                     <div className="py-3">
                         <ul>
                             <li className={` ${classes["list-item"]}`}>
@@ -28,7 +28,7 @@ export default function About() {
                         </ul>
                     </div>
                 </div>
-                <div className="col-md-3 ">
+                <div className="col-lg-3 col-md-12 ">
                     <div className="accordion" id="accordionExample">
                         <div className="accordion-item ">
                             <h2 className="accordion-header" id="headingThree">
