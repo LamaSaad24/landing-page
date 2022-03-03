@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/LamaSaad24/landing-page.git/static/css/main.3d110d38.css",
+    "main.js": "/LamaSaad24/landing-page.git/static/js/main.898e703a.js",
+    "static/media/img.png": "/LamaSaad24/landing-page.git/static/media/img.ff5f52d2f9746c296bd7.png",
+    "static/media/Cairo-VariableFont_wght.ttf": "/LamaSaad24/landing-page.git/static/media/Cairo-VariableFont_wght.360f499523f8d38eb693.ttf",
+    "static/media/bootstrap-icons.woff?": "/LamaSaad24/landing-page.git/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
+    "static/media/bootstrap-icons.woff2?": "/LamaSaad24/landing-page.git/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
+    "static/media/Amethysta-Regular.ttf": "/LamaSaad24/landing-page.git/static/media/Amethysta-Regular.92d95e285d5c11ba0491.ttf",
+    "static/media/Ara_Hamah.otf": "/LamaSaad24/landing-page.git/static/media/Ara_Hamah.d6e82045d573b6a1ac80.otf",
+    "static/media/slick.svg": "/LamaSaad24/landing-page.git/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/LamaSaad24/landing-page.git/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/LamaSaad24/landing-page.git/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/LamaSaad24/landing-page.git/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/LamaSaad24/landing-page.git/index.html",
+    "main.3d110d38.css.map": "/LamaSaad24/landing-page.git/static/css/main.3d110d38.css.map",
+    "main.898e703a.js.map": "/LamaSaad24/landing-page.git/static/js/main.898e703a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d110d38.css",
+    "static/js/main.898e703a.js"
+  ]
+}
